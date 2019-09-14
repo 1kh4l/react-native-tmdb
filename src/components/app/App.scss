@@ -1,8 +1,10 @@
 @import '../../assets/styles/_colors.scss';
 .App {
-  flex: 1,
-  backgroundColor: '#fff',
-  alignItems: 'center',
-  justifyContent: 'center'
+  flex: 1;
+  background-color: $main-color;
+  align-items: center;
+  justify-content: center;
 }
-
+.text{
+  color: white;
+}
