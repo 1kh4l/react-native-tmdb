@@ -4,16 +4,8 @@ import styles from './App.scss';
 import { Provider } from 'react-redux';
 import {createStore} from 'redux';
 import reducer from './../../store/reducer';
-import { StyleSheet, Text, View } from 'react-native';
-
-//const styles = StyleSheet.create({
-//  container: {
-//    flex: 1,
-//    backgroundColor: '#fff',
-//    alignItems: 'center',
-//    justifyContent: 'center',
-//  },
-//});
+import { Text, View } from 'react-native';
+import Header from './../header/Header';
 
 class App extends Component {
   render() {
@@ -22,6 +14,7 @@ class App extends Component {
       <Provider store={store}>
         <View className={styles.App}>
           <Text className={styles.text}>My first React Native app YAY!</Text>
+          <Header/>
         </View>
       </Provider>
     );
