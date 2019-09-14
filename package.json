@@ -1,0 +1,28 @@
+{
+  "main": "src/components/app/App.js",
+  "name": "react-native-tmdb",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "expo": "^34.0.1",
+    "node-sass": "^4.12.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-native": "^0.60.5",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^6.0.0"
+  }
+}
